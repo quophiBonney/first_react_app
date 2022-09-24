@@ -1,0 +1,35 @@
+.categories {
+    margin-top: 7em;
+}
+.heading {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+p {
+    margin-left: 10px;
+}
+.buttons {
+    margin-left: 10px;
+    animation: slide 2s infinite;
+}
+.buttons:hover {
+   animation-play-state: paused;
+   transform: scale(1.5);
+   cursor: pointer;
+}
+.paper-bg {
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(5px);
+    color: #e9e3e3;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+        opacity: .7;
+    }
+    100% {
+        transform: translateX(20px);
+    }
+}

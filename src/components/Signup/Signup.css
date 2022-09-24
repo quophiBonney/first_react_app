@@ -1,0 +1,10 @@
+.firstLast {
+    column-gap: 0.5em;
+}
+.svg-bg {
+    background-image: url('/src/assets/email.png');
+    background-size: cover;
+}
+.my-info {
+    margin-top: 250px;
+}

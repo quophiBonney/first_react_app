@@ -1,0 +1,29 @@
+.main-text {
+    margin-top: 120px;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.main-img {
+    margin-top: 80px;
+    animation: zoom 2s infinite;
+}
+.main-img:hover {
+    animation-play-state: paused;
+}
+.main-btn {
+    column-gap: 1em;
+}
+
+@keyframes zoom {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: scale(1.1)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
